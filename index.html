@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Vinod</title>
     <meta name="description" content="Professional portfolio of a digital artisan crafting exceptional web experiences">
     <meta name="theme-color" content="#fdfcfb">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
         <div class="nav-content">
             <div class="logo">
                 <div class="logo-sketch">
-                    <span class="logo-text">Portfolio</span>
+                    <span class="logo-text">Vinod</span>
                     <div class="underline-sketch"></div>
                 </div>
             </div>
@@ -48,6 +48,10 @@
                 </a>
                 <a href="#about" class="nav-link">
                     <span class="link-text">About</span>
+                    <div class="link-doodle"></div>
+                </a>
+                <a href="#education" class="nav-link">
+                    <span class="link-text">Education</span>
                     <div class="link-doodle"></div>
                 </a>
                 <a href="#projects" class="nav-link">
@@ -83,10 +87,10 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <div class="greeting-container">
+                <!-- <div class="greeting-container">
                     <p class="greeting">Hello there,</p>
                     <div class="wave-hand">👋</div>
-                </div>
+                </div> -->
                 <div class="name-container">
                     <span class="name-prefix">I'm</span>
                     <h1 class="name-main">Vinod Gadaputi</h1>
@@ -168,10 +172,9 @@
     <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <div class="section-number">01</div>
                 <h2 class="section-title">
-                    <span class="title-word">About</span>
-                    <span class="title-word">Me</span>
+                    <span class="title-word">About Me</span>
+                    
                     <div class="title-sketch">
                         <svg viewBox="0 0 200 50" class="title-underline">
                             <path d="M10,25 Q50,10 90,20 T170,15" stroke="currentColor" stroke-width="3" fill="none"/>
@@ -192,9 +195,8 @@
                     <div class="story-card fade-in">
                         <div class="card-number">💻</div>
                         <h3>Technical Craft</h3>
-                        <p>Code is my medium, design is my language. I believe in writing 
-                        clean, maintainable code that brings beautiful designs to life 
-                        with smooth interactions and seamless user experiences.</p>
+                        <p> I'm a Computer Science student passionate about full-stack development and problem-solving. I enjoy building modern, user-friendly web applications and exploring new technologies like AI and automation.
+      Recently, I completed a 3-month internship at Infinite Connects Media, where I gained hands-on experience and learned how to apply my skills in real-world projects. .</p>
                     </div>
                     <div class="story-card fade-in">
                         <div class="card-number">🚀</div>
@@ -237,12 +239,42 @@
             </div>
         </div>
     </section>
+     <!-- education section  -->
+      <section id="education" class="education">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span class="title-word">Education Background</span>
+            <div class="title-sketch">
+              <svg viewBox="0 0 200 50" class="title-underline" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10,25 Q50,10 90,20 T170,15" stroke="currentColor" stroke-width="3" fill="none"/>
+              </svg>
+            </div>
+          </h2>
+          <p class="section-subtitle">Formal training and academic highlights</p>
+        </div>
+        <div class="edu-grid">
+          <div class="edu-item fade-in">
+               <h3>B.Tech | CSE(CS)</h3>
+        <p>Veltech University, 2023-2027</p>
+      </div>
+      <div class="edu-item fade-in ">
+        <h3>Intermediate</h3>
+        <p>Narayana College, 2021-2023</p>
+      </div>
+      <div class="edu-item fade-in">
+        <h3>School</h3>
+        <p> S.V.E.M School, 2009-2021</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
             <div class="section-header">
-                <div class="section-number">02</div>
                 <h2 class="section-title">
                     <span class="title-word">My</span>
                     <span class="title-word">Projects</span>
@@ -332,105 +364,51 @@
                             <span class="tech-tag"><span>Css</span></span>
                         </div>
                     </div>
-                </div>
-
-                
-
-                
+                </div>  
             </div>
         </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <div class="section-number">03</div>
-                <h2 class="section-title">
-                    <span class="title-word">Technical</span>
-                    <span class="title-word">Skills</span>
-                    <div class="title-sketch">
-                        <svg viewBox="0 0 200 50" class="title-underline">
-                            <path d="M10,25 Q50,10 90,20 T170,15" stroke="currentColor" stroke-width="3" fill="none"/>
-                        </svg>
-                    </div>
-                </h2>
-                <p class="section-subtitle">Technologies I love working with</p>
-            </div>
-            <div class="skills-grid">
-                <div class="skill-item fade-in">
-                    <div class="skill-icon">
-                        <i class="fab fa-html5"></i>
-                    </div>
-                    <h3>HTML5</h3>
-                    <div class="skill-progress">
-                        <div class="progress-bar" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item fade-in">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-c"></i>
-                    </div>
-                    <h3>C</h3>
-                    <div class="skill-progress">
-                        <div class="progress-bar" data-width="95%"></div>
-                    </div>
-                </div>
-                <div class="skill-item fade-in">
-                    <div class="skill-icon">
-                        <i class="fab fa-css3-alt"></i>
-                    </div>
-                    <h3>CSS3</h3>
-                    <div class="skill-progress">
-                        <div class="progress-bar" data-width="87%"></div>
-                    </div>
-                </div>
-                <div class="skill-item fade-in">
-                    <div class="skill-icon">
-                        <i class="fa-solid fa-database"></i>
-                    </div>
-                    <h3>MySQL</h3>
-                    <div class="skill-progress">
-                        <div class="progress-bar" data-width="82%"></div>
-                    </div>
-                </div>
-                <div class="skill-item fade-in">
-                    <div class="skill-icon">
-                        <i class="fab fa-js-square"></i>
-                    </div>
-                    <h3>JavaScript</h3>
-                    <div class="skill-progress">
-                        <div class="progress-bar" data-width="88%"></div>
-                    </div>
-                </div>
-                 <div class="skill-item fade-in">
-                    <div class="skill-icon">
-                        <i class="fab fa-bootstrap"></i>
-                    </div>
-                    <h3>Bootstrap</h3>
-                    <div class="skill-progress">
-                        <div class="progress-bar" data-width="70%"></div>
-                    </div>
-                </div>
-                  <div class="skill-item fade-in">
-                    <div class="skill-icon">
-                        <i class="fab fa-php"></i>
-                    </div>
-                    <h3>PHP</h3>
-                    <div class="skill-progress">
-                        <div class="progress-bar" data-width="70%"></div>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  
+      <section id="skills" class="section">
+    <h2 style="text-align: center;">Skills</h2>
+    <div class="skills-bars">
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div style="width:100%">100%</div></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div style="width:90%">90%</div></div>
+      </div>
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div style="width:60%">60%</div></div>
+      </div>
+      <div class="skill">
+        <span>PHP</span>
+        <div class="bar"><div style="width:75%">75%</div></div>
+      </div>
+      <div class="skill">
+        <span>MY SQL</span>
+        <div class="bar"><div style="width:80%">80%</div></div>
+      </div>
+      <div class="skill">
+        <span>Java</span>
+        <div class="bar"><div style="width:80%">80%</div></div>
+      </div>
+      <div class="skill">
+        <span>Python</span>
+        <div class="bar"><div style="width:55%">55%</div></div>
+      </div>
+    </div>
+  </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-header">
-                <div class="section-number">04</div>
                 <h2 class="section-title">
                     <span class="title-word">Get In</span>
                     <span class="title-word">Touch</span>
