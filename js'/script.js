@@ -505,23 +505,13 @@ console.log('%c💼 Crafted for GFG Patna Workshop',
 console.log('%c🎨 Professional • Elegant • Unique', 
     'color: #c19a6b; font-size: 12px; font-weight: 500;');
 
-// function sendEmail() {
-//     const templateParams = {
-//         name: document.querySelector("#Name").value,
-//         email: document.querySelector("#Your Email").value,
-//         subject: document.querySelector("#Subject").value,
-//         message: document.querySelector("#Your Message").value,
-//     };
-//     emailjs
-//     .send("service_r19ui4m", "template_f7wi5ny", templateParams)
-//     .then(() => alert("Email sent!!").catch(() => alert("Email not sent!!")));
-// }    
+//   email js 
 emailjs.init("35REWa9mLeBK97R4W"); // Use your public key
 
 function sendEmail() {
     emailjs.sendForm(
         "service_gws33m6",      // Replace with your EmailJS service ID
-        "template_f7wi5ny",     // Replace with your EmailJS template ID
+        "template_f7wi5ny",     
         document.getElementById("contactForm")
     ).then(function(response) {
         alert("Email sent successfully!");

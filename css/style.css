@@ -585,18 +585,17 @@ body {
  .role-label,
  .role-main {
  text-align: center;
- font-size: 1.1rem; /* smaller size for narrow screens */
+ font-size: 1.1rem; 
  width: 100%;
  }
 
  .role-main {
- font-size: 1.4rem; /* scaled down from 1.75rem */
+ font-size: 1.4rem; 
  font-weight: 600;
  }
 
  .role-sketch {
- position: relative; /* position absolute might cause overlap on small screens */
- bottom: 0;
+ position: relative;
  left: 0;
  right: 0;
  margin: var(--space-xs) auto 0;
